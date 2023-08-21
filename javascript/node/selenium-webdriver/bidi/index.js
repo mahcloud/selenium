@@ -15,7 +15,7 @@
 // specific language governing permissions and limitations
 // under the License.
 
-const { EventEmitter } = require('node:events')
+const { EventEmitter } = require('events')
 const WebSocket = require('ws')
 
 const RESPONSE_TIMEOUT = 1000 * 30
